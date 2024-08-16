@@ -87,12 +87,6 @@ ul {
     justify-content: center;
 }
 
-/* .card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-} */
-
 .card {
     width: 150px;
     height: 150px;
@@ -104,4 +98,54 @@ ul {
 .card-information {
     max-width: 150px;
     text-align: center;
+}
+
+.quote-section {
+    padding: 96px 320px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+.cta-section {
+    padding: 80px 176px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 48px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-container-left {
+
+}
+
+.cta-title {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta-subtitle {
+    color: #E5E7EB;
+}
+
+.sign-up-button.cta-button {
+    border: solid 2px #f9faf8;
+
 }
